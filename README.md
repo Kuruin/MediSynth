@@ -8,4 +8,5 @@ A secure digital health locker with many more features
 5. Centralized health ledger<br>
 6. Clinical decision support<br>
 7. Digital card genration<br>
-8. Scheduling appointments, medicine times,follow up  automatically 
+8. Scheduling appointments, medicine times,follow up  automatically<br>
+9.collecting & managing the different terms for same things/disease e.g in ayurveda it's a rakatchap but in generic known as a Blood pressure or (BP)
