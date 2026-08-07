@@ -5,19 +5,20 @@
 <!-- PROJECT SHIELDS -->
 <p align="center">
   <a href="https://github.com/Kuruin/MediSynth/graphs/contributors">
-    <img src="https://shieldcn.dev/github/contributors/Kuruin/MediSynth.svg?variant=outline&theme=zinc" alt="Contributors" />
+<img src="https://www.shieldcn.dev/github/contributors/Kuruin/MediSynth.svg?theme=emerald&size=sm&valueColor=cdd6e4&labelTextColor=e2e7ef&color=258a4d" alt="Contributors" />
   </a>
   <a href="https://github.com/Kuruin/MediSynth/network/members">
-    <img src="https://shieldcn.dev/github/forks/Kuruin/MediSynth.svg?variant=outline&theme=zinc" alt="Forks" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/forks/Kuruin/MediSynth.svg?variant=secondary&amp;size=sm&amp;mode=dark"><img alt="GitHub Forks" src="https://www.shieldcn.dev/github/forks/Kuruin/MediSynth.svg?variant=secondary&amp;size=sm&amp;mode=light"></picture>
   </a>
   <a href="https://github.com/Kuruin/MediSynth/stargazers">
-    <img src="https://shieldcn.dev/github/stars/Kuruin/MediSynth.svg?variant=outline&theme=zinc" alt="Stars" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/stars/Kuruin/MediSynth.svg?variant=secondary&amp;size=sm&amp;mode=dark"><img alt="GitHub Stars" src="https://www.shieldcn.dev/github/stars/Kuruin/MediSynth.svg?variant=secondary&amp;size=sm&amp;mode=light"></picture>
+
   </a>
   <a href="https://github.com/Kuruin/MediSynth/issues">
-    <img src="https://shieldcn.dev/github/issues/Kuruin/MediSynth.svg?variant=outline&theme=zinc" alt="Issues" />
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/open-issues/Kuruin/MediSynth.svg?variant=secondary&amp;size=sm&amp;mode=dark"><img alt="Open issues" src="https://www.shieldcn.dev/github/open-issues/Kuruin/MediSynth.svg?variant=secondary&amp;size=sm&amp;mode=light"></picture>
   </a>
   <a href="https://github.com/Kuruin/MediSynth/blob/master/LICENSE">
-    <img src="https://shieldcn.dev/github/license/Kuruin/MediSynth.svg?variant=outline&theme=zinc" alt="License" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://www.shieldcn.dev/github/license/Kuruin/MediSynth.svg?variant=ghost&amp;size=sm&amp;mode=dark"><img alt="License" src="https://www.shieldcn.dev/github/license/Kuruin/MediSynth.svg?variant=ghost&amp;size=sm&amp;mode=light"></picture>
   </a>
 </p>
 
@@ -25,7 +26,8 @@
 <br />
 <p align="center">
   <picture>
-  <img alt="MediSynth Banner" src="https://shieldcn.dev/header/surface.svg?title=MediSynth&subtitle=Unified+Multimodal+Medical+Report+Analysis+and+Timeline+Generation+Engine&logo=ri:HeartPulseFill&logoColor=10b981&theme=emerald&font=space-grotesk&align=left&overlay=0.6&radius=20&image=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1530210124550-912dc1381cb8%3Fq%3D80%26w%3D1170%26auto%3Dformat%26fit%3Dcrop" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/surface.svg?title=MediSynth&subtitle=Unified+Multimodal+Medical+Report+Analysis+and+Timeline+Generation+Engine&logo=ri:HeartPulseFill&logoColor=10b981&theme=emerald&font=space-grotesk&align=left&overlay=0.6&radius=20&image=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1530210124550-912dc1381cb8%3Fq%3D80%26w%3D1170%26auto%3Dformat%26fit%3Dcrop&mode=dark" />
+    <img alt="MediSynth Banner" src="https://shieldcn.dev/header/surface.svg?title=MediSynth&subtitle=Unified+Multimodal+Medical+Report+Analysis+and+Timeline+Generation+Engine&logo=ri:HeartPulseFill&logoColor=10b981&theme=emerald&font=space-grotesk&align=left&overlay=0.6&radius=20&image=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1530210124550-912dc1381cb8%3Fq%3D80%26w%3D1170%26auto%3Dformat%26fit%3Dcrop&mode=light" width="100%"/>
   </picture>
 </p>
 
@@ -93,15 +95,15 @@ MediSynth integrates a secure digital ledger with an intelligent processing pipe
 
 ### Built With
 
-- [![Next.js](https://shieldcn.dev/npm/next.svg?variant=secondary&logo=nextdotjs&label=Next.js)](https://nextjs.org/)
-- [![React](https://shieldcn.dev/npm/react.svg?variant=secondary&logo=react&label=React)](https://reactjs.org/)
-- [![TypeScript](https://shieldcn.dev/badge/TypeScript-v5-blue.svg?variant=secondary&logo=typescript)](https://www.typescriptlang.org/)
-- [![Tailwind CSS](https://shieldcn.dev/npm/tailwindcss.svg?variant=secondary&logo=tailwind-css&label=Tailwind+CSS)](https://tailwindcss.com/)
-- [![Node.js](https://shieldcn.dev/badge/Node.js-v18+-green.svg?variant=secondary&logo=nodedotjs)](https://nodejs.org/)
-- [![Express.js](https://shieldcn.dev/npm/express.svg?variant=secondary&logo=express&label=Express.js)](https://expressjs.com/)
-- [![PostgreSQL](https://shieldcn.dev/badge/PostgreSQL-v15+-blue.svg?variant=secondary&logo=postgresql)](https://www.postgresql.org/)
-- [![Prisma](https://shieldcn.dev/npm/@prisma/client.svg?variant=secondary&logo=prisma&label=Prisma)](https://www.prisma.io/)
-- [![Qdrant](https://shieldcn.dev/badge/Qdrant-Vector_DB-red.svg?variant=secondary&logo=qdrant)](https://qdrant.tech/)
+<a href="https://nextjs.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/npm/next.svg?variant=secondary&logo=nextdotjs&label=Next.js&mode=dark"><img alt="Next.js" src="https://shieldcn.dev/npm/next.svg?variant=secondary&logo=nextdotjs&label=Next.js&mode=light"></picture></a>
+<a href="https://reactjs.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/npm/react.svg?variant=secondary&logo=react&label=React&mode=dark"><img alt="React" src="https://shieldcn.dev/npm/react.svg?variant=secondary&logo=react&label=React&mode=light"></picture></a>
+<a href="https://www.typescriptlang.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/TypeScript-v5-blue.svg?variant=secondary&logo=typescript&mode=dark"><img alt="TypeScript" src="https://shieldcn.dev/badge/TypeScript-v5.svg?variant=secondary&logo=typescript&mode=light"></picture></a>
+<a href="https://tailwindcss.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/npm/tailwindcss.svg?variant=secondary&logo=tailwind-css&label=Tailwind+CSS&mode=dark"><img alt="Tailwind CSS" src="https://shieldcn.dev/npm/tailwindcss.svg?variant=secondary&logo=tailwind-css&label=Tailwind+CSS&mode=light"></picture></a>
+<a href="https://nodejs.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Node.js-v18+-green.svg?variant=secondary&logo=nodedotjs&mode=dark"><img alt="Node.js" src="https://shieldcn.dev/badge/Node.js-v18+.svg?variant=secondary&logo=nodedotjs&mode=light"></picture></a>
+<a href="https://expressjs.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/npm/express.svg?variant=secondary&logo=express&label=Express.js&mode=dark"><img alt="Express.js" src="https://shieldcn.dev/npm/express.svg?variant=secondary&logo=express&label=Express.js&mode=light"></picture></a>
+<a href="https://www.postgresql.org/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/PostgreSQL-v15+-blue.svg?variant=secondary&logo=postgresql&mode=dark"><img alt="PostgreSQL" src="https://shieldcn.dev/badge/PostgreSQL-v15+.svg?variant=secondary&logo=postgresql&mode=light"></picture></a>
+<a href="https://www.prisma.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/npm/@prisma/client.svg?variant=secondary&logo=prisma&label=Prisma&mode=dark"><img alt="Prisma" src="https://shieldcn.dev/npm/@prisma/client.svg?variant=secondary&logo=prisma&label=Prisma&mode=light"></picture></a>
+<a href="https://qdrant.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/Qdrant-Vector_DB-red.svg?variant=secondary&logo=qdrant&mode=dark"><img alt="Qdrant" src="https://shieldcn.dev/badge/Qdrant-Vector_DB.svg?variant=secondary&logo=qdrant&mode=light"></picture></a>
 
 ---
 
@@ -187,13 +189,57 @@ Follow these steps to set up the project locally in your development workspace.
 
 ---
 
-<!-- ROADMAP -->
+<!-- GALLEY -->
+
+## :camera: Gallery
+
+Soon....
+
+<!-- CONTRIBUTING -->
+
+### :fire: Contribution
+
+Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
+
+1.  **Report a bug** <br>
+    If you think you have encountered a bug, and I should know about it, feel free to report it [here](https://github.com/Kuruin/MediSynth/issues) and I will take care of it.
+
+2.  **Request a feature** <br>
+    You can also request for a feature [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1&pp=ygUJcmljayByb2xsoAcB0gcJCcQLAYcqIYzv), and if it will viable, it will be picked for development.
+
+3.  **Create a pull request** <br>
+    It can't get better then this, your pull request will be appreciated by the community. You can get started by picking up any open issues from [here](https://github.com/Kuruin/MediSynth/pulls) and make a pull request.
+
+> If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
+
+### :cactus: Branches
+
+I use an agile continuous integration methodology, so the version is frequently updated and development is really fast.
+
+1. **`stage`** is the development branch.
+
+2. **`main`** is the production branch.
+
+3. No other permanent branches should be created in the main repository, you can create feature branches but they should get merged with the master.
+
+**Steps to work with feature branch**
+
+1. To start working on a new feature, create a new branch prefixed with `feat` and followed by feature name. (ie. `feat-FEATURE-NAME`)
+2. Once you are done with your changes, you can raise PR.
+
+**Steps to create a pull request**
+
+1. Make a PR to `stage` branch.
+2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
+3. It must pass all continuous integration checks and get positive reviews.
+
+After this, changes will be merged.t
 
 ## Upcoming Features
 
-- <input type="checkbox"> Core patient profile and record uploading system
-- <input type="checkbox"> OCR parsing and medical information extraction pipeline
-- <input type="checkbox"> Chronological health timeline builder
-- <input type="checkbox"> Semantic search & Qdrant vector index integration
-- <input type="checkbox"> Emergency QR Card generation and UI
-- <input type="checkbox"> AI voice assistant console & language translations
+- [ ] Core patient profile and record uploading system
+- [ ] OCR parsing and medical information extraction pipeline
+- [ ] Chronological health timeline builder
+- [ ] Semantic search & Qdrant vector index integration
+- [ ] Emergency QR Card generation and UI
+- [ ] AI voice assistant console & language translations
