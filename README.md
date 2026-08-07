@@ -189,7 +189,7 @@ Follow these steps to set up the project locally in your development workspace.
 
 <!-- ROADMAP -->
 
-## Roadmap
+## Upcoming Features
 
 - <input type="checkbox"> Core patient profile and record uploading system
 - <input type="checkbox"> OCR parsing and medical information extraction pipeline
