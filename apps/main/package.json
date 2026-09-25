@@ -1,5 +1,5 @@
 {
-  "name": "web",
+  "name": "main",
   "version": "0.1.0",
   "type": "module",
   "private": true,
@@ -12,9 +12,15 @@
   },
   "dependencies": {
     "@repo/ui": "*",
+    "@tailwindcss/postcss": "^4.3.3",
+    "clsx": "^2.1.1",
+    "motion": "^13.4.4",
     "next": "16.3.0",
+    "postcss": "^8.5.28",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.7.0",
+    "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
