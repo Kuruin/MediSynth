@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Inter, Manrope } from "next/font/google";
 import "./globals.css";
+import { NavBar } from "../components/navbar";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${arial.className} ${inter.variable}antialiased`}>
+        <NavBar />
         {children}
       </body>
     </html>
