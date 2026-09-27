@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Inter, Manrope } from "next/font/google";
+import { cn } from "@/lib/utils";
 import "./globals.css";
 import { NavBar } from "../components/navbar";
 
@@ -30,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${arial.className} ${inter.variable} antialiased`}>
+      <body className={cn(arial.className, inter.variable, "antialiased")}>
         <NavBar />
         {children}
       </body>

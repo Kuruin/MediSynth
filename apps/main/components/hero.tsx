@@ -2,47 +2,88 @@
 
 import React, { useState } from "react";
 import { motion } from "motion/react";
+import { cn } from "@/lib/utils";
 
 export const Hero = () => {
   const [hoveredStar, setHoveredStar] = useState<number | null>(null);
 
   return (
-    <section className="relative min-h-screen bg-white text-black flex items-center px-4 sm:px-6 lg:px-8 py-20 lg:py-28 overflow-hidden">
-      <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-        <div className="w-full lg:w-1/2 flex flex-col items-start text-left">
-          <p className="text-xs text-[#F17463] sm:text-sm font-normal font-inter mb-3 sm:mb-4 tracking-normal">
+    <section
+      className={cn(
+        "relative min-h-screen bg-white text-black flex items-center px-4 sm:px-6 lg:px-8 py-20 lg:py-28 overflow-hidden",
+      )}
+    >
+      <div
+        className={cn(
+          "max-w-7xl mx-auto w-full flex flex-col lg:flex-row items-center gap-12 lg:gap-16",
+        )}
+      >
+        <div
+          className={cn("w-full lg:w-1/2 flex flex-col items-start text-left")}
+        >
+          <p
+            className={cn(
+              "text-xs text-[#F17463] sm:text-sm font-normal font-inter mb-3 sm:mb-4 tracking-normal",
+            )}
+          >
             For patients, doctors, and healthcare teams.
           </p>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[3.75rem] font-medium tracking-tight text-black leading-[1.12] sm:leading-[1.08]">
+          <h1
+            className={cn(
+              "text-4xl sm:text-5xl md:text-6xl lg:text-[3.75rem] font-medium tracking-tight text-black leading-[1.12] sm:leading-[1.08]",
+            )}
+          >
             Organize and understand
             <br />
-            your medical <span className="text-[#F17463]">joruney</span>
+            your medical <span className={cn("text-[#F17463]")}>journey</span>
           </h1>
 
-          <p className="mt-5 sm:mt-6 max-w-lg text-sm sm:text-[15px] text-zinc-500 font-normal leading-relaxed font-secondar">
+          <p
+            className={cn(
+              "mt-5 sm:mt-6 max-w-lg text-sm sm:text-[15px] text-zinc-500 font-normal leading-relaxed font-secondar",
+            )}
+          >
             We help patients and healthcare providers transform disconnected
             reports, prescriptions, and test results into a unified medical
             history
           </p>
 
-          <div className="mt-8 sm:mt-9 flex items-center gap-3">
-            <button className="rounded-xl bg-charcoal-900 text-center text-white px-6 sm:px-7 py-2.5 sm:py-3 text-base font-medium transition-all duration-150 active:scale-[0.96] cursor-pointer shadow-sm">
+          <div className={cn("mt-8 sm:mt-9 flex items-center gap-3")}>
+            <button
+              className={cn(
+                "rounded-xl bg-charcoal-900 text-center text-white px-6 sm:px-7 py-2.5 sm:py-3 text-base font-medium transition-all duration-150 active:scale-[0.96] cursor-pointer shadow-sm",
+              )}
+            >
               Start building
             </button>
 
-            <button className="rounded-xl text-center bg-white text-black border border-zinc-200 px-6 sm:px-7 py-2.5 sm:py-3 text-base font-medium hover:bg-[#eaedf1] hover:border-transparent transition-all duration-150 active:scale-[0.96] cursor-pointer">
+            <button
+              className={cn(
+                "rounded-xl text-center bg-white text-black border border-zinc-200 px-6 sm:px-7 py-2.5 sm:py-3 text-base font-medium hover:bg-[#eaedf1] hover:border-transparent transition-all duration-150 active:scale-[0.96] cursor-pointer",
+              )}
+            >
               View pricing
             </button>
           </div>
 
-          <div className="mt-12 sm:mt-14 flex flex-wrap items-center gap-2.5 sm:gap-3 text-xs sm:text-sm text-zinc-500 font-normal select-none">
-            <div className="flex items-center justify-center w-7 h-7 text-black">
-              <img src={"/assets/logo.svg"}></img>
+          <div
+            className={cn(
+              "mt-12 sm:mt-14 flex flex-wrap items-center gap-2.5 sm:gap-3 text-xs sm:text-sm text-zinc-500 font-normal select-none",
+            )}
+          >
+            <div
+              className={cn(
+                "flex items-center justify-center w-7 h-7 text-black",
+              )}
+            >
+              <img src={"/assets/logo.svg"} alt="MediSynth logo" />
             </div>
 
             <div
-              className="flex items-center text-black hover:cursor-pointer"
+              className={cn(
+                "flex items-center text-black hover:cursor-pointer",
+              )}
               onMouseLeave={() => setHoveredStar(null)}
             >
               {[...Array(5)].map((_, i) => {
@@ -55,7 +96,7 @@ export const Hero = () => {
                     whileHover={{ scale: 1.15 }}
                     whileTap={{ scale: 0.92 }}
                     transition={{ type: "spring", stiffness: 450, damping: 25 }}
-                    className="flex items-center justify-center p-0.5"
+                    className={cn("flex items-center justify-center p-0.5")}
                   >
                     <svg
                       width="15"
@@ -81,21 +122,27 @@ export const Hero = () => {
               })}
             </div>
 
-            <span className="text-zinc-300">|</span>
-            <span className="text-zinc-500">
+            <span className={cn("text-zinc-300")}>|</span>
+            <span className={cn("text-zinc-500")}>
               Innovative AI solution 2026 by{" "}
-              <strong className="text-black font-semibold">MKSV</strong>
+              <strong className={cn("text-black font-semibold")}>MKSV</strong>
             </span>
           </div>
         </div>
 
-        <div className="w-full lg:w-1/2 flex items-center justify-center lg:justify-end">
+        <div
+          className={cn(
+            "w-full lg:w-1/2 flex items-center justify-center lg:justify-end",
+          )}
+        >
           <img
             src="/assets/hero.svg"
             alt="Women on chair illustration"
             width={700}
             height={700}
-            className="w-full h-auto object-contain select-none pointer-events-none scale-110 sm:scale-125 xl:scale-135 origin-center transition-transform duration-300"
+            className={cn(
+              "w-full h-auto object-contain select-none pointer-events-none scale-110 sm:scale-125 xl:scale-135 origin-center transition-transform duration-300",
+            )}
           />
         </div>
       </div>
