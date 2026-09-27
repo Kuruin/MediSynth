@@ -2,5 +2,9 @@
 
 @theme {
     --color-charcoal-900: #202020;
+    --color-footer-blue: #0099FF;
+    --color-footer-selection: #E6F5FF;
+
     --font-secondary: "Inter";
+    --font-caption: "Manrope";
 }
