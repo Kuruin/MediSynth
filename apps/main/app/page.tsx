@@ -1,7 +1,9 @@
+import { Hero } from "../components/hero";
+
 export default function Home() {
   return (
-    <div>
-      <img src={"assets/logo.svg"} width={200} height={200}></img>
+    <div className="min-h-screen">
+      <Hero />
     </div>
   );
 }

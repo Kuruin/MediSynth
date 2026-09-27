@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+    --color-charcoal-900: #202020;
+    --font-secondary: "Inter";
+}
